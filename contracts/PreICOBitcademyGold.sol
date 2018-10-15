@@ -2,7 +2,7 @@ pragma solidity ^0.4.23;
 
 import "./BitcademyToken.sol";
 import "./RefundVault.sol";
-//import "./Ownable.sol";
+import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
 /**
  * @title Crowdsale
  * @dev Crowdsale is a base contract for managing a token crowdsale,
